@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import './styles/App.css'; // Link to your CSS file
+import '../styles/App.css'; // Link to your CSS file
 import Loader from './Loader';
 import PhotoFrame from './PhotoFrame';
 
