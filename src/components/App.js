@@ -8,7 +8,6 @@ const App = () => {
   console.log(photo)
   React.useEffect(()=>{
     if(id === 0) return;
-    // console.log("Hi Alok")
       setPhoto(null)
       fetch(`https://jsonplaceholder.typicode.com/photos/${id}`).then((response)=>{
         return response.json()
