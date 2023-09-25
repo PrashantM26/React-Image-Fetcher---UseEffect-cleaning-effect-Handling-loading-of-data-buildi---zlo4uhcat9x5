@@ -1,10 +1,11 @@
 import React from 'react';
 
-function PhotoFrame({ url, title }) {
-    return (<div className="photoframe">
-        <img src={url} alt={title}></img>
-        <div className="caption">{title}</div>
-    </div>);
-
+export const PhotoFrame = ({title,url}) => {
+   // if(!title) return;
+  return(
+    <div className="photoframe">
+      <img src={url}/>
+      <div className="caption">{title}</div>
+    </div>
+  )
 }
-export default PhotoFrame;
